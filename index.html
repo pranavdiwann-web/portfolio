@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav Diwan | Premium Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Pranav Diwan — Designer crafting cinematic digital experiences through graphic design and video editing.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div id="cursor-glow" class="cursor-glow"></div>
+
+    <!-- Grain Overlay -->
+    <div class="grain-overlay"></div>
+
+    <!-- Flowing Ambient Connector -->
+    <div class="ambient-connector">
+        <div class="ambient-blob blob-1"></div>
+        <div class="ambient-blob blob-2"></div>
+        <div class="ambient-blob blob-3"></div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- ═══════════════════════════════════════════════ -->
+        <!-- SECTION 1: HERO                                -->
+        <!-- ═══════════════════════════════════════════════ -->
+        <section id="hero" class="section-hero">
+            <div class="hero-bg-glow"></div>
+            <div class="hero-content">
+                <h1 class="hero-title reveal-up">PORTFOLIO</h1>
+                <div class="hero-buttons stagger-up">
+                    <button id="btn-view-work" class="btn primary" data-scroll-to="#work">View My Work</button>
+                    <button id="btn-contact" class="btn secondary" data-scroll-to="#contact">Contact Me</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════ -->
+        <!-- SECTION 2: ABOUT                               -->
+        <!-- ═══════════════════════════════════════════════ -->
+        <section id="about" class="section-about">
+            <div class="container split-layout">
+                <!-- LEFT COLUMN -->
+                <div class="about-text reveal-left" data-parallax="0.03">
+                    <h2 class="about-name">PRANAV DIWAN</h2>
+                    <p class="about-role">Designer</p>
+                    <p class="about-bio">I’m a designer driven by the obsession to create work that actually makes people stop, look, and remember. Clean isn’t enough. Aesthetic isn’t enough. Every design I create has to feel something — sharp, premium, and intentional.</p>
+                    <p class="about-bio" style="margin-top: 1rem;">I hold a diploma from MAAC Pitampura, where I strengthened my foundation in design and visual communication. I’ve also participated in Delhi CG 2025, pushing my creativity into competitive and real-world creative environments.</p>
+                    <p class="about-bio" style="margin-top: 1rem;">From logos to full digital experiences, I focus on crafting visuals that carry weight and purpose. I care about the small details most people ignore, because that’s where good design becomes unforgettable.</p>
+                    <p class="about-bio" style="margin-top: 1rem;">I’m constantly evolving, pushing my limits, and refining my style — not to follow trends, but to set a standard.</p>
+                </div>
+                <!-- RIGHT COLUMN -->
+                <div class="about-visuals reveal-right" data-parallax="-0.02">
+                    <!-- Portrait Placeholder -->
+                    <div class="portrait-wrapper">
+                        <!-- REPLACE: swap src with your portrait image -->
+                        <div class="portrait-container">
+                            <img src="pranav-portrait.jpg" alt="Pranav Diwan" class="portrait-img">
+                        </div>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <span class="skill-icon">Ai</span>
+                            <div class="skill-track">
+                                <div class="skill-bar" style="--target-width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">Ps</span>
+                            <div class="skill-track">
+                                <div class="skill-bar" style="--target-width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">Ae</span>
+                            <div class="skill-track">
+                                <div class="skill-bar" style="--target-width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">Pr</span>
+                            <div class="skill-track">
+                                <div class="skill-bar" style="--target-width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">Id</span>
+                            <div class="skill-track">
+                                <div class="skill-bar" style="--target-width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- QR Code -->
+                    <div class="qr-section">
+                        <!-- REPLACE: swap with your QR code image -->
+                        <img src="qr-code.png" alt="Scan to see CV" class="qr-img-file" style="width: 80px; height: 80px; border-radius: 8px;">
+                        <span class="qr-label">Scan to see my CV</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════ -->
+        <!-- SECTION 3: MY WORK                             -->
+        <!-- ═══════════════════════════════════════════════ -->
+        <section id="work" class="section-work">
+            <div class="container">
+                <h2 class="section-heading reveal-up">MY WORK</h2>
+
+                <!-- Toggle System -->
+                <div class="toggle-wrapper reveal-up" id="work-toggle">
+                    <div class="toggle-pill"></div>
+                    <button class="toggle-btn active" data-target="graphic-design" id="toggle-graphic">Graphic
+                        Designing</button>
+                    <button class="toggle-btn" data-target="video-editing" id="toggle-video">Video Editing</button>
+                </div>
+
+                <!-- Work Content Area -->
+                <div class="work-panels">
+
+                    <!-- ─── GRAPHIC DESIGN PANEL ─── -->
+                    <div id="graphic-design" class="work-panel active">
+
+                        <!-- Table of Contents -->
+                        <div class="toc-strip">
+                            <div class="toc-entry reveal-left"><span class="toc-num">01</span><span
+                                    class="toc-label">LOGOFOLIO</span></div>
+                            <div class="toc-entry reveal-left" style="transition-delay:.1s"><span
+                                    class="toc-num">02</span><span class="toc-label">BRAND IDENTITY</span></div>
+                            <div class="toc-entry reveal-left" style="transition-delay:.2s"><span
+                                    class="toc-num">03</span><span class="toc-label">SOCIAL MEDIA</span></div>
+                            <div class="toc-entry reveal-left" style="transition-delay:.3s"><span
+                                    class="toc-num">04</span><span class="toc-label">PACKAGING</span></div>
+                        </div>
+
+                        <!-- ─── 01 / LOGOFOLIO ─── -->
+                        <div class="subsection logofolio-section" id="logofolio">
+                            <h3 class="subsection-heading">01 / LOGOFOLIO</h3>
+                            <div class="bento-grid">
+                                <!-- Asymmetrical bento layout -->
+                                <div class="bento-item bento-square stagger-fade" style="background: rgba(255,255,255,0.03);">
+                                    <!-- REPLACE: Logo 1 image -->
+                                    <img src="logo-1.jpg" alt="Logofolio Main Image" style="width: 100%; height: 100%; object-fit: contain; padding: 1rem; display: block; border-radius: var(--radius-lg);" id="logo-1">
+                                </div>
+                                <div class="bento-item bento-wide stagger-fade" style="background: rgba(255,255,255,0.03);">
+                                    <!-- REPLACE: Logo 2 image -->
+                                    <img src="logo-2.png" alt="Logofolio Graphic Breakdown" style="width: 100%; height: 100%; object-fit: contain; padding: 1rem; display: block; border-radius: var(--radius-lg);" id="logo-2">
+                                </div>
+                                <div class="bento-item bento-square stagger-fade" style="background: rgba(255,255,255,0.03);">
+                                    <!-- REPLACE: Logo 3 image -->
+                                    <img src="logo-3.jpg" alt="Logofolio App Icon Mockup" style="width: 100%; height: 100%; object-fit: contain; padding: 1rem; display: block; border-radius: var(--radius-lg);" id="logo-3">
+                                </div>
+                                <div class="bento-item bento-square stagger-fade" style="background: rgba(255,255,255,0.03);">
+                                    <!-- REPLACE: Logo 4 image -->
+                                    <img src="logo-4.jpg" alt="Logofolio Smartwatch Mockup" style="width: 100%; height: 100%; object-fit: contain; padding: 1rem; display: block; border-radius: var(--radius-lg);" id="logo-4">
+                                </div>
+                                <div class="bento-item bento-square stagger-fade" style="background: rgba(255,255,255,0.03);">
+                                    <!-- REPLACE: Logo 5 image -->
+                                    <img src="logo-5.png" alt="Logofolio Brand Banner" style="width: 100%; height: 100%; object-fit: contain; padding: 1rem; display: block; border-radius: var(--radius-lg);" id="logo-5">
+                                </div>
+                                <div class="bento-item bento-square stagger-fade" style="background: rgba(255,255,255,0.03);">
+                                    <!-- REPLACE: Logo 6 image -->
+                                    <img src="logo-6.png" alt="App Icon Collection" style="width: 100%; height: 100%; object-fit: contain; padding: 1rem; display: block; border-radius: var(--radius-lg);" id="logo-6">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ─── 02 / BRAND IDENTITY ─── -->
+                        <div class="subsection brand-section" id="brand-identity">
+                            <h3 class="subsection-heading">02 / BRAND IDENTITY</h3>
+                            <div class="brand-layout">
+                                <!-- 1. Hero Card -->
+                                <div class="brand-block brand-hero reveal-up" style="height: auto; text-align: center;">
+                                    <img src="brand-hero-1.png" alt="Aarogyam Rituals Brand Identity" style="max-width: 100%; max-height: 500px; width: auto; height: auto; display: inline-block; border-radius: var(--radius-lg);">
+                                </div>
+                                <!-- Image Duo Wrapper for tight gap -->
+                                <div style="grid-column: 1 / -1; display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+                                    <!-- 2. Logo Breakdown -->
+                                    <div class="brand-block brand-logo-breakdown reveal-up" style="height: auto;">
+                                        <img src="brand-hero-2.jpg" alt="Aarogyam Rituals Anu Thailam Oil" style="max-width: 100%; max-height: 450px; width: auto; height: auto; display: block; border-radius: var(--radius-lg);">
+                                    </div>
+                                    <!-- 3. Colors / Typography -->
+                                    <div class="brand-block brand-colors reveal-up" style="height: auto;">
+                                        <img src="brand-hero-3.jpg" alt="Aarogyam Rituals Brand Identity Cap" style="max-width: 100%; max-height: 450px; width: auto; height: auto; display: block; border-radius: 48px;">
+                                    </div>
+                                </div>
+                                <!-- 4. Mockups Grid & Swatch -->
+                                <div style="grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; align-items: center;">
+                                    <div class="brand-block reveal-up" style="height: auto; border-radius: var(--radius-lg); overflow: hidden;">
+                                        <img src="brand-hero-4.jpg" alt="Aarogyam Rituals Billboard" style="width: 100%; height: auto; display: block;">
+                                    </div>
+                                    <div class="brand-block reveal-up" style="height: auto; border-radius: var(--radius-lg); overflow: hidden;">
+                                        <img src="brand-hero-7.png" alt="Aarogyam Rituals Color Swatch" style="width: 100%; height: auto; display: block; transform: scale(1.10);">
+                                    </div>
+                                </div>
+                                <!-- 5. Real World -->
+                                <div class="brand-block brand-realworld reveal-up">
+                                    <div class="brand-realworld-grid">
+                                        <!-- Real World 1 image -->
+                                        <div style="height: auto; display: flex; align-items: center; justify-content: center;" id="brand-rw-1">
+                                            <img src="brand-hero-5.jpg" alt="Aarogyam Rituals Website Mockup" style="max-width: 100%; max-height: 450px; width: auto; height: auto; display: block; border-radius: var(--radius-lg);">
+                                        </div>
+                                        <!-- Real World 2 image -->
+                                        <div style="height: auto; display: flex; align-items: center; justify-content: center;" id="brand-rw-2">
+                                            <img src="brand-hero-6.jpg" alt="Aarogyam Rituals Branding Materials" style="max-width: 100%; max-height: 450px; width: auto; height: auto; display: block; border-radius: var(--radius-lg);">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ─── 03 / SOCIAL MEDIA ─── -->
+                        <div class="subsection social-section" id="social-media">
+                            <h3 class="subsection-heading">03 / SOCIAL MEDIA</h3>
+                            <div class="social-grid-2x2">
+                                <!-- REPLACE: Social media post images -->
+                                <div class="social-card stagger-fade" id="social-card-1">
+                                    <div class="social-card-inner">
+                                        <img src="social-post-1.jpg" alt="Aarogyam Rituals Beauty Skincare Social Post" class="social-img" style="width: 100%; height: auto; display: block;">
+                                    </div>
+                                </div>
+                                <div class="social-card stagger-fade" id="social-card-2">
+                                    <div class="social-card-inner">
+                                        <img src="social-post-2.jpg" alt="BB Estates Interior Design Social Post" class="social-img" style="width: 100%; height: auto; display: block;">
+                                    </div>
+                                </div>
+                                <div class="social-card stagger-fade" id="social-card-3">
+                                    <div class="social-card-inner">
+                                        <img src="social-post-3.jpg" alt="Fresh & Healthy Vegetable Social Post" class="social-img" style="width: 100%; height: auto; display: block;">
+                                    </div>
+                                </div>
+                                <div class="social-card stagger-fade" id="social-card-4">
+                                    <div class="social-card-inner">
+                                        <img src="social-post-4.jpg" alt="Aarogyam Rituals Maha Narayan Oil Social Post" class="social-img" style="width: 100%; height: auto; display: block;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <!-- ─── VIDEO EDITING PANEL ─── -->
+                    <div id="video-editing" class="work-panel">
+                        <div class="subsection">
+                            <h3 class="subsection-heading">VIDEO REELS & EDITS</h3>
+                            <div class="video-mosaic">
+                                <!-- Mixed grid: landscape + portrait -->
+                                <div class="vid-cell vid-landscape stagger-fade">
+                                    <!-- REPLACE: Video 1 (landscape) -->
+                                    <iframe src="https://www.youtube.com/embed/bx7C5wYhqvQ" title="Video L1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; height: 100%; border-radius: var(--radius-lg);"></iframe>
+                                </div>
+                                <div class="vid-cell vid-portrait stagger-fade">
+                                    <!-- REPLACE: Video 2 (portrait) -->
+                                    <iframe src="https://www.youtube.com/embed/p81Zy55mDFk" title="Video P1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; height: 100%; border-radius: var(--radius-lg);"></iframe>
+                                </div>
+                                <div class="vid-cell vid-portrait stagger-fade">
+                                    <!-- REPLACE: Video 3 (portrait) -->
+                                    <iframe src="https://www.youtube.com/embed/yzTwHzTG8h0" title="Video P2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; height: 100%; border-radius: var(--radius-lg);"></iframe>
+                                </div>
+                                <div class="vid-cell vid-landscape stagger-fade">
+                                    <!-- REPLACE: Video 4 (landscape) -->
+                                    <iframe src="https://www.youtube.com/embed/L9Mvddb5Cpk" title="Video L2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; height: 100%; border-radius: var(--radius-lg);"></iframe>
+                                </div>
+                                <div class="vid-cell vid-portrait stagger-fade">
+                                    <!-- REPLACE: Video 5 (portrait) -->
+                                    <iframe src="https://www.youtube.com/embed/8fvyy0zlVcY" title="Video P3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; height: 100%; border-radius: var(--radius-lg);"></iframe>
+                                </div>
+                                <div class="vid-cell vid-portrait stagger-fade">
+                                    <!-- REPLACE: Video 6 (portrait) -->
+                                    <iframe src="https://www.youtube.com/embed/Xa9MtgYMMlo" title="Video P4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; height: 100%; border-radius: var(--radius-lg);"></iframe>
+                                </div>
+                                <div class="vid-cell vid-portrait stagger-fade">
+                                    <!-- REPLACE: Video 7 (portrait) -->
+                                    <iframe src="https://www.youtube.com/embed/ss4AYBIP-j0" title="Video P5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; height: 100%; border-radius: var(--radius-lg);"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════ -->
+        <!-- SECTION 7: CONTACT                             -->
+        <!-- ═══════════════════════════════════════════════ -->
+        <section id="contact" class="section-contact">
+            <div class="container text-center">
+                <h2 class="contact-heading reveal-up">Let's Create Together</h2>
+                <p class="contact-sub reveal-up">Ready to start your next project? Reach out and let's make something
+                    extraordinary.</p>
+                <a href="mailto:pranavdiwann@gmail.com" class="btn primary email-glow-btn reveal-up" id="email-btn">
+                    pranavdiwann@gmail.com
+                </a>
+                <div class="social-footer reveal-up">
+                    <a href="https://www.instagram.com/editorrhu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="footer-social-link"
+                        id="link-instagram">Instagram</a>
+                    <a href="https://www.linkedin.com/in/pranav-diwan-717729357/" target="_blank"
+                        class="footer-social-link" id="link-linkedin">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ─── LIGHTBOX MODAL ─── -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
